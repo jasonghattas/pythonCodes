@@ -1,6 +1,6 @@
 import random
 import string
-user_pass = input("Enter Your Password: ")
+user_pass = input("Enter Your password: ")
 
 def generate_word(length):
     return ''.join(random.choice(string.ascii_lowercase) for _ in range(length))
